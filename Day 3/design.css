@@ -1,0 +1,77 @@
+@import url(design2.css);
+p{
+    background-color: aqua;
+}
+
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+}
+
+.paragraph{
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+    background-color: turquoise;
+}
+
+b,strong,p{
+    background-color: rosybrown;
+}
+
+*{
+    box-sizing: border-box;
+    background-color: lightgray;
+}
+
+.parent p{
+    background-color: lime;
+}
+
+.parent>p{
+    background-color: yellow;
+}
+
+.parent + p{
+     background-color: orange; /* to target the first sibling we use + */
+}
+
+.parent ~ p{
+    background-color: violet; /* to target all the siblings we use ~ */
+}
+
+.learn-psuedo{
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    background-color: magenta;
+}
+
+.learn-psuedo:hover{
+    background-color: lightgreen;
+}
+
+.learn-psuedo:active{
+    background-color: rgb(26, 172, 221);
+}
+input:focus{
+    background-color: rgb(74, 241, 110);
+    size: 10px;
+}
+
+ul li:first-child{
+    background-color: gold;
+}
+ul li:nth-child(2){
+    background-color: silver;
+}
+ul li:last-child{
+    background-color: bronze;
+}
+ul li:nth-child(4){
+    background-color: lightblue;
+}
+ul li:nth-child(odd){
+    background-color: rgb(144, 61, 73);
+}

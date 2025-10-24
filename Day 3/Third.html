@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third HTML Document</title>
+    <link rel="stylesheet" href="design.css">
+    <style>
+        h2{
+            background-color: yellow;
+            color:  rgb(23, 163, 54);
+            text-align: center;
+        }
+        p{
+            background-color: rgb(205, 122, 122);
+            color: rgb(15, 14, 14);
+            text-align: center;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- there are four way we acn apply the css property -->
+
+    <!--1: inline css
+        2: internal css
+        3: external css
+        4: import css -->
+
+        <!-- inline css -->
+    <h1 style="background-color: blue; text-align:center;">h1 is an block element and semantic element</h1>
+    <h2>I can do this all day</h2>
+    <p style="background-color: rgb(222, 156, 204); text-align: center;">Kawaii</p>
+
+    <!-- selector -->
+<!-- 1: simple selector
+        =>id selector
+        =>class name selector
+        =>tag name selector
+
+     2: combinator selector
+     3: pseudo-class selector
+     4: pseudo-element selector
+     5: attribute selector      -->
+
+     <div id="box"></div>
+     <p class="paragraph">Hasta la Vista</p>
+     <h3>content</h3>
+
+
+     <b>this is bold</b>
+     <strong>this is strong</strong>
+     <p>this is a paragraph tag</p>
+
+     <!-- comninator selector
+     1: descendant combinator
+     2: direct child combinator
+     3: adjacent sibling combinator
+     4: general sibling combinator -->
+
+
+     <div class="parent">
+        <p>child one</p>
+        <div class="child">
+            <p>indirect child</p>
+        </div>
+     </div>
+     <p>first sibling</p>
+     <p>second sibling</p>
+     <p>third sibling</p>
+
+     <div class="learn-psuedo"></div>
+     <input type="text" placeholder="enter your name"><br>
+     <input type="text" placeholder="enter your age">
+     <ul>
+        <li>first child</li>
+        <li>second child</li>
+        <li>third child</li>
+        <li>fourth child</li>
+     </ul>
+</body>
+</html>
