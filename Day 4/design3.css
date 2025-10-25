@@ -1,0 +1,98 @@
+p[id="paragraph"] {
+    font-size: 18px;
+    color: #333333;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+p::first-letter {
+    background-color: aqua;
+    /* font-size: 200%;
+    font-weight: bold;
+    color: #ff5733; */
+}
+p::first-line {
+    background-color: violet;
+    /* font-weight: bold;
+    text-transform: uppercase; */
+}
+p::selection {
+    background-color: rgb(57, 227, 82);
+    /* color: #ffffff; */
+}
+p::after {
+    content: " after the text.";
+}
+p::before {
+    content: "Before the text: ";
+}
+
+.div1{
+    width: 200px;
+    background-color: deeppink;
+    padding: 20px 30px 40px 20px; /*top,right,bottom,left(clock-wise) */
+    /* margin: 25px 15px 20px 45px; top,right,bottom,left(clock-wise) */
+    margin: 30px 40px;
+    height: 400px;
+    font-weight: bolder;
+    color: white;
+    border: 2px solid black;
+    background-image: url("https://wallpapers-clan.com/wp-content/uploads/2024/02/chainsaw-man-red-wallpaper-pr.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.div2{
+    height: 400px;
+    width: 200px;
+    border: 2px solid black;
+    background-image: url("https://w0.peakpx.com/wallpaper/312/598/HD-wallpaper-chainsaw-man-manga-chainsawman-denji-anime.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#block-ele{
+    background-color: lightsteelblue;
+    display: inline;
+    width: 500px;
+}
+span{
+    background-color: lightcoral;
+    display: block;
+    font-size:15px;
+    font-weight: bold;
+    color: white;
+    width: 180px;
+}
+h1{
+    background-color: yellow;
+    visibility: hidden;
+}
+h2{
+    background-color: lightgreen;
+    display: inline-block;
+    /* display: none; */
+}
+div.container{
+    border: 2px solid black;
+
+}
+.container{
+    border: 2px solid black;
+    /* padding: 10px; */
+    width: 400px;
+    height: 400px;
+    /* overflow: scroll; */
+    display: flex;
+    /* flex-direction: column; */
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+
+}
+.item{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    /* margin: 5px; */
+}
