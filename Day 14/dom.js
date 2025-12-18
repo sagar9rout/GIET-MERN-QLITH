@@ -103,13 +103,13 @@ pbody.addEventListener("mousedown",()=>
 
 pbody.addEventListener("mouseup",()=>
 {
-    console.log("mouse up");
+    console.log("mouse up"); //mouse click on upper
 })
 
 pbody.style.backgroundColor="red";
 pbody.addEventListener("mousemove",()=>
 {
-    console.log("mouse move");
+    console.log("mouse move");//movement of mouse inside the target area show
 })
 
 pbody.style.backgroundColor="blue";
