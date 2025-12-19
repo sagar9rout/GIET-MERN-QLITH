@@ -66,7 +66,7 @@ document.addEventListener("keydown",(e)=>
 // })
 
 //window
-// window.addEventListener("load",()=>
+// window.addEventListener("load",()=>   // addeventlistner ("event name",call back function--varaiable pass)
 // {
 //     console.log("load")
 // })
@@ -109,7 +109,7 @@ window.addEventListener("DOMContentLoaded",(e)=>
 
 //promise status return by server, that time status is pending
    // status
-//pending
+//pending   when data is processing 
 //resolve
 //reject
 
@@ -118,4 +118,6 @@ window.addEventListener("DOMContentLoaded",(e)=>
                                             //    if succesful data not come [reject]
 //promise handle block= then (when promises resoleve)
                     //  catch (when promises reject)
+
+// Create promise using  => [ new promise() ]
 
