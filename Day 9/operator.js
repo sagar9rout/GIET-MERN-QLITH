@@ -1,6 +1,18 @@
 console.log("This is the End");
+
+// operator 3 types:  1. uniary
+//                    2. binary
+//                    3. ternary
+
+// binary opeartor: - Arithmetic Operators
+//                  - Assignment Operators
+//                  - Comparison Operators
+//                  - Logical Operators
+//                  - Ternary Operators
+
+
 // Arithmetic operator
-console.log(2+3); // Addition
+console.log(2+3); // Addition      => Other works of add - concadination left side(but some space) "3" +2=32 ,typecasting 
 console.log(5-2); // Subtraction
 console.log(4*3); // Multiplication
 console.log(8/2); // Division
@@ -57,7 +69,7 @@ console.log(2<3);
 console.log(3>=2);
 console.log(2<=3);
 console.log(5==5);
-console.log(5=="5");
+console.log(5=="5");  // check value
 console.log(5=="abc");
 console.log(5===5);  // first check type
 console.log(5==="5");
