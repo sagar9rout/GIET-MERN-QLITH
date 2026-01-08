@@ -84,10 +84,10 @@ console.log("Flat Array with infinity depth:", [1, 2, [3, 4, [5, 6, [7, 8]]]].fl
 
 
 // DOM (Document Object Model) manipulation
-// document.getElementById("id")
+// document.getElementById("id") return type is HTML collection
 // document.getElementsByClassName("class") return type is HTMLCollection
 // document.getElementsByTagName("tag")  return type is HTMLCollection
-// document.querySelector("id/class/tag")    in this to get id we use (#) , to get class use (.)
+// document.querySelector("id/class/tag")    in this to get id we use (#) , to get class use (.) // return nodeList
 // document.querySelectorAll("id/class/tag")    it return nodeList
  
 let h1= document.getElementById("heading");// some time broswer show object and some time it show html element
