@@ -73,10 +73,94 @@ for (let n of arr5)
 }
 console.log(largest);
 
-str="hello mf"
-let revstr=""
-console.log(str)
-for(let idx = str.length-1;idx>=0;idx--){
-    revstr+str[idx]
-    console.log(revstr)
+
+// find duplicate element and remove duplicates
+let arr10 = [1, 2, 3, 4, 5,5,3];
+let duplicate=[];
+for(let num of arr10)
+{
+    if(!duplicate.includes(num))
+    {
+        duplicate.push(num);
+    }
 }
+console.log("new array:", duplicate);
+
+// print the star pattern
+for (let i = 1; i <= 5; i++) {
+    let stars = "";
+    for (let j = 1; j <= i; j++) {
+        stars = stars + "*";
+    }
+    console.log(stars);
+}
+
+// check if an umber is a prime 
+let num = 7;
+let isPrime = true;
+if (num <= 1)
+    {
+    isPrime = false;
+} else 
+{
+    for (let i = 2; i < num; i++) 
+    {
+        if (num % i === 0)
+        {
+            isPrime = false;
+            break;
+        }
+    }
+}
+if (isPrime) {
+    console.log("Prime number");
+} else {
+    console.log("Not a prime number");
+}
+
+// or
+let num5 = Number(prompt("Enter a number:"));
+let isPrime1 = true;
+if (num5 <= 1) {
+    isPrime1 = false;
+} else {
+    for (let i = 2; i < num5; i++) {
+        if (num5 % i === 0) {
+            isPrime1 = false;
+            break;
+        }
+    }
+}
+
+if (isPrime1) {
+    console.log("Prime number");
+} else {
+    console.log("Not a prime number");
+}
+
+// fibonacci series
+let value = 5;
+let a = 0;
+let b = 1;
+
+console.log("Fibonacci Series:");
+
+for (let i = 1; i <= n; i++) {
+    console.log(a);
+    let next = a + b;
+    a = b;
+    b = next;
+}
+
+// or
+let n1 = Number(prompt("Enter number of terms:"));
+let a1 = 0;
+let b1 = 1;
+console.log("Fibonacci Series:");
+for (let i = 1; i <= n; i++) {
+    console.log(a);
+    let next = a + b;
+    a = b;
+    b = next;
+}
+
